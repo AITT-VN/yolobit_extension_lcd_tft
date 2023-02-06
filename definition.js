@@ -511,7 +511,7 @@ Blockly.Blocks['tft_lcd_clear'] = {
       this.jsonInit(
           {
               "type": "tft_lcd_clear",
-              "message0": "xóa màn hình TFT",
+              "message0": "xóa màn hình",
               "previousStatement": null,
               "nextStatement": null,
               "colour": "#370ACD",
@@ -533,7 +533,7 @@ Blockly.Blocks['tft_lcd_print'] = {
       this.jsonInit(
           {
               "type": "tft_lcd_print",
-              "message0": "hiện lên TFT LCD %1%2 tại x %3%4 y %5%6",
+              "message0": "hiện chữ %1%2 tại x %3%4 y %5%6",
               "args0": [
                 {
                   "type": "input_dummy",
