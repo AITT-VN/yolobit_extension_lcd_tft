@@ -1,5 +1,5 @@
 <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
-  <category name="TFT LCD" colour="#44cbc6" icon="tv">
+  <category name="TFT LCD" colour="#370ACD" icon="tv">
   <block type="tft_lcd_create">
       <value name="width">
         <shadow type="math_number">
@@ -34,6 +34,7 @@
         </shadow>
       </value>
     </block>
+    <block type="tft_lcd_font"/>
     <block type="tft_lcd_clear"/>
     <block type="tft_lcd_draw">
       <value name="w">
@@ -56,23 +57,35 @@
           <field name="NUM">0</field>
         </shadow>
       </value>
-      <value name="r">
-        <shadow type="math_number">
-          <field name="NUM">0</field>
-        </shadow>
-      </value>
-      <value name="g">
-        <shadow type="math_number">
-          <field name="NUM">0</field>
-        </shadow>
-      </value>
-      <value name="b">
-        <shadow type="math_number">
-          <field name="NUM">0</field>
+      <value name="COLOR">
+        <shadow type="colour_picker">
+          <field name="COLOUR">#ff0000</field>
         </shadow>
       </value>
     </block>
-    <block type="tft_lcd_draw_text">
+    <block type="tft_lcd_draw_line">
+      <value name="w">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="x">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="y">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="COLOR">
+        <shadow type="colour_picker">
+          <field name="COLOUR">#ff0000</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="tft_lcd_draw_text_pickcolor">
       <value name="text">
         <shadow type="text">
           <field name="TEXT">Hello</field>
@@ -88,19 +101,9 @@
           <field name="NUM">0</field>
         </shadow>
       </value>
-      <value name="r">
-        <shadow type="math_number">
-          <field name="NUM">0</field>
-        </shadow>
-      </value>
-      <value name="g">
-        <shadow type="math_number">
-          <field name="NUM">0</field>
-        </shadow>
-      </value>
-      <value name="b">
-        <shadow type="math_number">
-          <field name="NUM">0</field>
+      <value name="COLOR">
+        <shadow type="colour_picker">
+          <field name="COLOUR">#ff0000</field>
         </shadow>
       </value>
     </block>
