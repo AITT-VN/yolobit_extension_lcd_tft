@@ -11,11 +11,6 @@
           <field name="NUM">0</field>
         </shadow>
       </value>
-      <value name="rotation">
-        <shadow type="math_number">
-          <field name="NUM">0</field>
-        </shadow>
-      </value>
     </block>
     <block type="tft_lcd_print">
       <value name="text">
@@ -97,6 +92,33 @@
         </shadow>
       </value>
       <value name="y">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="COLOR">
+        <shadow type="colour_picker">
+          <field name="COLOUR">#ff0000</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="tft_lcd_draw_coord_line">
+      <value name="x1">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="y1">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="x2">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="y2">
         <shadow type="math_number">
           <field name="NUM">0</field>
         </shadow>
